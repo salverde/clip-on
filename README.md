@@ -3,17 +3,17 @@
 Clip-On is the base Rails application used at
 [Bowtie](https://bowtie.io/).
 
-  ![Clipon](https://photos-3.dropbox.com/t/2/AAAz0dQouX_NhEbvOwIrmCG5tJxYwb7Q6xf0d5oqfZIcOg/12/1125449/png/32x32/1/_/1/2/README-banner.png/EIynfhjB7rrCASACKAI/ILX5cCwUAA2ZYiNoiUqGoipoa4Rd0KouW9bTyDbMZBA?size=2048x1536&size_mode=3)
+  [Clipon](https://photos-3.dropbox.com/t/2/AAAz0dQouX_NhEbvOwIrmCG5tJxYwb7Q6xf0d5oqfZIcOg/12/1125449/png/32x32/1/_/1/2/README-banner.png/EIynfhjB7rrCASACKAI/ILX5cCwUAA2ZYiNoiUqGoipoa4Rd0KouW9bTyDbMZBA?size=1048x536&size_mode=3)
 
 ## Installation
 
-First install the suspenders gem:
+First install the clip-on gem:
 
 `gem install clip-on`
 
 Then run:
 
-  `clip-on new [projectname] -opt`
+  `clip-on new [projectname] -flags`
 
 This will create a Rails app in `projectname` using the latest version of Rails.
 
@@ -24,7 +24,7 @@ This will create a Rails app in `projectname` using the latest version of Rails.
 
 ## Gemfile
 
-To see the latest and greatest gems, look at Suspenders'
+To see the latest and greatest gems, look at Clip-on'
 [Gemfile](templates/Gemfile.erb), which will be appended to the default
 generated projectname/Gemfile.
 
@@ -35,13 +35,13 @@ It includes application gems like:
 And development gems like:
 
 * [Dotenv](https://github.com/bkeepers/dotenv) for loading environment variables
-* [Pry-ByeBug](https://github.com/deivid-rodriguez/byebug) for interactively
+* [Pry-ByeBug](https://github.com/deivid-rodriguez/pry-byebug) for interactively
   debugging behavior
 
 
 And testing gems like:
 
-* [mini-test](https://github.com/thoughtbot/factory_girl) for test data
+* [mini-test](https://github.com/seattlerb/minitest) for test data
 
 
 ## Other goodies
