@@ -3,8 +3,6 @@
 Clip-On is the base Rails application used at
 [Bowtie](https://bowtie.io/).
 
-  [Clipon](https://photos-3.dropbox.com/t/2/AAAz0dQouX_NhEbvOwIrmCG5tJxYwb7Q6xf0d5oqfZIcOg/12/1125449/png/32x32/1/_/1/2/README-banner.png/EIynfhjB7rrCASACKAI/ILX5cCwUAA2ZYiNoiUqGoipoa4Rd0KouW9bTyDbMZBA?size=1048x536&size_mode=3)
-
 ## Installation
 
 First install the clip-on gem:
