@@ -1,6 +1,7 @@
 # Clip-On
 
 Clip-On is the base Rails application we use on several products including.
+
 [Bowtie](https://bowtie.io/), [Startup Denver](https://bowtie.io/portfolio), [Only You](https://bowtie.io/portfolio).
 
   ![Clip-on Bowtie](https://dl.dropboxusercontent.com/s/za479tjme52m2hu/README-banner.png?dl=0)
@@ -49,7 +50,6 @@ It includes application gems like:
 * [Puma](https://github.com/puma/puma) to serve HTTP requests
 
 And development gems like:
-
 * [Dotenv](https://github.com/bkeepers/dotenv) for loading environment variables
 * [Pry-ByeBug](https://github.com/deivid-rodriguez/pry-byebug) for interactively
   debugging behavior
@@ -140,9 +140,7 @@ Clipon wouldn't exist without the help and shoulders of [Thoughtbot](https://tho
 
 [![bowtie][bowtie-logo]][bowtie]
 
-Clip-on is maintained and funded by Seedworthy, inc.
-The names and logos for Bowtie are trademarks of Seedworthy, inc.
+Clip-on is maintained and funded by Seedworthy, inc. The names and logos for Bowtie are trademarks of Seedworthy, inc.
 
 [bowtie]: https://bowtie.io
 [bowtie-logo]: https://bowtie.io/img/bt-logo.png
-
