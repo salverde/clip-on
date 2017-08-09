@@ -1,0 +1,13 @@
+Description:
+    Clip-on is a Rails template with bowtie standard
+    defaults.
+
+    For full details on the changes we've made compared to
+    a vanilla Rails app, check our GitHub project:
+        https://github.com/thoughtbot/clip-on
+
+Example:
+    clip-on ~/Code/bowtie_rails_app
+
+    This generates a Rails installation in ~/Code/weblog configured
+    with our preferred defaults.
