@@ -32,8 +32,6 @@ It includes application gems like:
 
 * [Sidekiq](https://github.com/mperham/sidekiq) for background processing
 
-* [High Voltage](https://github.com/thoughtbot/high_voltage) for static pages
-
 * [Bootstrap Rubygem](https://github.com/twbs/bootstrap-rubygem) for using Bootstrap 4 with rails
 
 * [Normalize](https://necolas.github.io/normalize.css/) for resetting browser styles
@@ -42,17 +40,23 @@ It includes application gems like:
 
 * [Rack Timeout](https://github.com/heroku/rack-timeout) to abort requests that are
   taking too long
-* [Recipient Interceptor](https://github.com/croaky/recipient_interceptor) to
-  avoid accidentally sending emails to real people from staging
+
+* [Mail Catcher](https://github.com/sj26/mailcatcher) to avoid accidentally sending emails to real people from staging
 
 * [Simple Form](https://github.com/plataformatec/simple_form) for form markup
   and style
+
 * [Puma](https://github.com/puma/puma) to serve HTTP requests
 
 And development gems like:
 * [Dotenv](https://github.com/bkeepers/dotenv) for loading environment variables
+
 * [Pry-ByeBug](https://github.com/deivid-rodriguez/pry-byebug) for interactively
   debugging behavior
+
+* [Better Errors](https://github.com/charliesome/better_errors) Better Errors replaces the standard Rails error page with a much better and more useful error page.
+
+* [Rubocop](https://github.com/bbatsov/rubocop) Static Analyzer to standardize our code
 
 And testing gems like:
 
@@ -73,12 +77,14 @@ Clip-on also comes with:
 * An automatically-created `SECRET_KEY_BASE` environment variable in all
   environments
 * Configuration for [TravisCI][travis] Continuous Integration (tests)
-* Configuration for [Hound][hound] Continuous Integration (style)
+
+
+
 * The analytics adapter [Segment][segment] (and therefore config for Google
   Analytics, Intercom, Facebook Ads, Twitter Ads, etc.)
 
 [travis]: https://travis-ci.com/
-[hound]: https://houndci.com
+
 [segment]: https://segment.com
 
 ## Git

@@ -1,0 +1,55 @@
+source "https://rubygems.org"
+
+git_source(:github) do |repo_name|
+  repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?("/")
+  "https://github.com/#{repo_name}.git"
+end
+
+ruby "<%= Clipon::RUBY_VERSION %>"
+gem "rails", "<%= Clipon::RAILS_VERSION %>"
+
+gem "sidekiq"
+gem "pg"
+gem "puma"
+gem "mailcatcher"
+
+gem 'bootstrap'
+gem "simple_form"
+gem "uglifier"
+
+gem "clip-on"
+
+group :development do
+  gem "listen"
+  gem "spring"
+  # gem "spring-commands-rspec"
+  gem "web-console"
+end
+
+group :development, :test do
+  gem "better_errors"
+
+  gem "dotenv-rails"
+  gem "pry-byebug"
+  gem "pry-rails"
+
+end
+
+group :development, :staging do
+  gem "rack-mini-profiler", require: false
+end
+
+group :test do
+  gem "capybara-webkit"
+  gem "database_cleaner"
+  gem "formulaic"
+  gem "launchy"
+  # gem "shoulda-matchers"
+  gem "simplecov", require: false
+  gem "timecop"
+  gem "webmock"
+end
+
+group :staging, :production do
+  gem "rack-timeout"
+end
