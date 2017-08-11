@@ -140,7 +140,7 @@ and may be redistributed under the terms specified in the [LICENSE] file.
 
 ## Attribution
 
-Clipon wouldn't exist without the help and shoulders of [Thoughtbot](https://thoughtbot.com/) and their [Suspenders](https://github.com/thoughtbot/suspenders) template.
+Clipon wouldn't look as stylish without the support of [Suspenders](https://github.com/thoughtbot/suspenders) worn by [thoughbot](http://thoughbot.com).
 
 ## About Bowtie Agency
 
