@@ -18,18 +18,18 @@ rush to build something amazing; don't use it if you like missing deadlines.
   s.executables = ['bowtie']
   s.extra_rdoc_files = %w[README.md LICENSE]
   s.files = `git ls-files`.split("\n")
-  s.homepage = 'https://github.com/bowtie-co/clip-on'
+  s.homepage = 'https://bitbucket.org/salomoko/clip-on'
   s.license = 'MIT'
   s.name = 'clip-on'
   s.rdoc_options = ['--charset=UTF-8']
   s.require_paths = ['lib']
   s.summary = "Generate a Rails app with all Bowtie's favorites."
   s.test_files = `git ls-files -- {test,spec,features}/*`.split("\n")
-  s.version = Bowtie::VERSION
+  s.version = Clipon::VERSION
 
   s.add_dependency 'bitters', '~> 1.7'
   s.add_dependency 'bundler', '~> 1.3'
-  s.add_dependency 'rails', Bowtie::RAILS_VERSION
+  s.add_dependency 'rails', Clipon::RAILS_VERSION
 
   s.add_development_dependency 'rspec', '~> 3.2'
 end

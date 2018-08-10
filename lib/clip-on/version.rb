@@ -4,5 +4,5 @@ module Clipon
     read("#{File.dirname(__FILE__)}/../../.ruby-version").
     strip.
     freeze
-  VERSION = "0.1".freeze
+  VERSION = "0.1.0".freeze
 end
