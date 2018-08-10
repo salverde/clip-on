@@ -4,7 +4,7 @@ Clip-On is the base Rails application we use on several products including.
 
 [Bowtie](https://bowtie.io/), [Startup Denver](https://bowtie.io/portfolio), [Only You](https://bowtie.io/portfolio).
 
-  ![Clip-on Bowtie](https://nxtcloud.me/s/JJAwDnq9MCWTEXA/preview)
+  ![Clip-on Bowtie](https://nxtcloud.me/s/JJAwDnq9MCWTEXA/download)
 
 ## Installation
 
