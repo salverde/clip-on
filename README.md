@@ -132,21 +132,20 @@ If you have problems, please create a
 
 ## License
 
-Clipon is Copyright © 2017 Bowtie Inc.
+Clipon is Copyright © 2018 Bowtie Inc.
 It is free software,
 and may be redistributed under the terms specified in the [LICENSE] file.
 
 [LICENSE]: LICENSE
 
 ## Attribution
-
-Clipon wouldn't look as stylish without the support of [Suspenders](https://github.com/thoughtbot/suspenders) worn by [thoughbot](http://thoughbot.com).
+Clipon wouldn't exist without the stylish looks of [Suspenders](https://github.com/thoughtbot/suspenders)
 
 ## About Bowtie Agency
 
 [![bowtie][bowtie-logo]][bowtie]
 
-Clip-on is maintained and funded by Seedworthy, inc. The names and logos for Bowtie are trademarks of Seedworthy, inc.
+Clip-on is maintained by Seedworthy, inc. The names and logos for Bowtie are trademarks of Seedworthy, inc.
 
 [bowtie]: https://bowtie.io
 [bowtie-logo]: https://bowtie.io/img/bt-logo.png
