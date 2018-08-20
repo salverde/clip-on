@@ -138,10 +138,7 @@ and may be redistributed under the terms specified in the [LICENSE] file.
 
 [LICENSE]: LICENSE
 
-## Attribution
-Clipon wouldn't exist without the stylish looks of [Suspenders](https://github.com/thoughtbot/suspenders)
-
-## About Bowtie Agency
+---
 
 [![bowtie][bowtie-logo]][bowtie]
 

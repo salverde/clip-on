@@ -1,23 +1,23 @@
 require "spec_helper"
 
-RSpec.describe "Suspend a new project with default configuration" do
+RSpec.describe "Clip on a new project with default configuration" do
   before(:all) do
     drop_dummy_database
     remove_project_directory
-    run_suspenders
+    run_clipon
     setup_app_dependencies
   end
 
   it "uses custom Gemfile" do
     gemfile_file = IO.read("#{project_path}/Gemfile")
     expect(gemfile_file).to match(
-      /^ruby "#{Suspenders::RUBY_VERSION}"$/,
+      /^ruby "#{Clipon::RUBY_VERSION}"$/,
     )
     expect(gemfile_file).to match(
       /^gem "autoprefixer-rails"$/,
     )
     expect(gemfile_file).to match(
-      /^gem "rails", "#{Suspenders::RAILS_VERSION}"$/,
+      /^gem "rails", "#{Clipon::RAILS_VERSION}"$/,
     )
   end
 
@@ -37,7 +37,7 @@ RSpec.describe "Suspend a new project with default configuration" do
     end
   end
 
-  it "creates .ruby-version from Suspenders .ruby-version" do
+  it "creates .ruby-version from Clipon .ruby-version" do
     ruby_version_file = IO.read("#{project_path}/.ruby-version")
 
     expect(ruby_version_file).to eq "#{RUBY_VERSION}\n"

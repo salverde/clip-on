@@ -6,9 +6,9 @@ RSpec.describe "GitHub" do
     remove_project_directory
   end
 
-  it "suspends a project with --github option" do
+  it "clipon a project with --github option" do
     repo_name = "test"
-    run_suspenders("--github=#{repo_name}")
+    run_clipon("--github=#{repo_name}")
     setup_app_dependencies
 
     expect(FakeGithub).to have_created_repo(repo_name)

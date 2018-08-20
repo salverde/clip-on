@@ -13,7 +13,7 @@ module Clipon
       desc: "Create Github repository and add remote origin pointed to repo"
 
     class_option :version, type: :boolean, aliases: "-v", group: :clipon,
-      desc: "Show Suspenders version number and quit"
+      desc: "Show Clipon version number and quit"
 
     class_option :help, type: :boolean, aliases: '-h', group: :clipon,
       desc: "Show this help message and quit"
@@ -41,7 +41,7 @@ module Clipon
       invoke :setup_test_environment
       invoke :setup_production_environment
       invoke :setup_secret_token
-      invoke :create_clip-on_views
+      invoke :create_clipon_views
       invoke :configure_app
       invoke :copy_miscellaneous_files
       invoke :customize_error_pages
@@ -49,8 +49,8 @@ module Clipon
       invoke :remove_routes_comment_lines
       invoke :setup_dotfiles
       invoke :setup_database
-      invoke :create_local_heroku_setup
-      invoke :create_heroku_apps
+      # invoke :create_local_heroku_setup
+      # invoke :create_heroku_apps
       invoke :create_github_repo
       invoke :setup_segment
       invoke :setup_bundler_audit
